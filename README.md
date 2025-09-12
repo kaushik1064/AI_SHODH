@@ -57,7 +57,6 @@ Both approaches are evaluated and compared to provide actionable insights for fi
 1. **Clone the repository:**
    ```bash
    git clone <repository-url>
-   cd lending_club_policy_optimization
    ```
 
 2. **Create and activate a Python environment:**
