@@ -1,0 +1,48 @@
+{
+  "original_shape": [
+    88399,
+    154
+  ],
+  "selected_features_shape": [
+    88399,
+    18
+  ],
+  "processed_shape": [
+    88399,
+    35
+  ],
+  "n_numerical_features": 13,
+  "n_categorical_features": 4,
+  "n_processed_features": 35,
+  "train_size": 53039,
+  "val_size": 17680,
+  "test_size": 17680,
+  "class_distribution": {
+    "class_0": 70288,
+    "class_1": 18111,
+    "default_rate": 0.20487788323397324
+  },
+  "selected_features": {
+    "numerical": [
+      "loan_amnt",
+      "int_rate",
+      "installment",
+      "annual_inc",
+      "dti",
+      "fico_range_low",
+      "fico_range_high",
+      "inq_last_6mths",
+      "open_acc",
+      "pub_rec",
+      "revol_bal",
+      "revol_util",
+      "total_acc"
+    ],
+    "categorical": [
+      "grade",
+      "home_ownership",
+      "verification_status",
+      "purpose"
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "comparison_summary": {
+    "dl_auc": 0.7415064445875763,
+    "dl_f1": 0.17427772600186392,
+    "rl_avg_reward": -954.4168272058823,
+    "rl_total_reward": -16874089.505,
+    "agreement_rate": 46.72511312217195
+  },
+  "financial_comparison": [
+    {
+      "Metric": "Total Profit ($)",
+      "Deep Learning": "$18,531,457.81",
+      "Offline RL": "$11,368,635.50"
+    },
+    {
+      "Metric": "Total Loss ($)",
+      "Deep Learning": "$21,305,225.00",
+      "Offline RL": "$28,242,725.00"
+    },
+    {
+      "Metric": "Net Profit ($)",
+      "Deep Learning": "$-2,773,767.19",
+      "Offline RL": "$-16,874,089.50"
+    },
+    {
+      "Metric": "Missed Profit ($)",
+      "Deep Learning": "$6,115,637.94",
+      "Offline RL": "$11,282,198.87"
+    },
+    {
+      "Metric": "Avoided Loss ($)",
+      "Deep Learning": "$31,475,125.00",
+      "Offline RL": "$27,923,075.00"
+    },
+    {
+      "Metric": "ROI (%)",
+      "Deep Learning": "-7.0%",
+      "Offline RL": "-42.6%"
+    }
+  ],
+  "key_insights": {
+    "paradigm_difference": "DL optimizes prediction accuracy, RL optimizes financial return",
+    "business_impact": "RL shows potential for improved profitability",
+    "decision_agreement": "46.7% agreement"
+  },
+  "recommendations": [
+    "1. MODEL SELECTION STRATEGY:",
+    "   \u2022 Use Deep Learning for RISK ASSESSMENT and screening",
+    "   \u2022 Use Offline RL for FINAL APPROVAL decisions",
+    "   \u2022 Consider ensemble approach combining both models",
+    "",
+    "2. DEPLOYMENT RECOMMENDATIONS:",
+    "   \u2022 Implement DL model for real-time risk scoring",
+    "   \u2022 Use RL agent for batch decision optimization",
+    "   \u2022 Monitor performance drift and retrain regularly",
+    "",
+    "3. BUSINESS PROCESS INTEGRATION:",
+    "   \u2022 Set DL probability thresholds based on risk appetite",
+    "   \u2022 Use RL rewards to optimize portfolio performance",
+    "   \u2022 Implement A/B testing framework for continuous improvement",
+    "",
+    "4. RISK MANAGEMENT:",
+    "   \u2022 Establish monitoring for model disagreements",
+    "   \u2022 Implement human-in-the-loop for edge cases",
+    "   \u2022 Regular model auditing and bias detection",
+    "",
+    "5. FUTURE ENHANCEMENTS:",
+    "   \u2022 Collect additional behavioral and alternative data",
+    "   \u2022 Implement online RL for adaptive learning",
+    "   \u2022 Develop explainable AI features for regulatory compliance"
+  ]
+}
