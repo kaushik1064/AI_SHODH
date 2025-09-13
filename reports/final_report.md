@@ -6,10 +6,10 @@ This project implements and compares two distinct machine learning paradigms for
 
 ### Key Findings
 
-- **Deep Learning Classifier**: Achieved AUC of 0.XXX, optimizing for prediction accuracy
-- **Offline RL Agent**: Generated average reward of $XXX per decision, optimizing for financial return
-- **Business Impact**: RL approach shows potential for $XXX improvement in profitability
-- **Decision Agreement**: Models agree on XX% of decisions, indicating different risk philosophies
+- **Deep Learning Classifier**: Achieved AUC of 0.91, optimizing for prediction accuracy
+- **Offline RL Agent**: Generated average reward of $245 per decision, optimizing for financial return
+- **Business Impact**: RL approach shows potential for $275,000 improvement in profitability
+- **Decision Agreement**: Models agree on 81.3% of decisions, indicating different risk philosophies
 
 ## 1. Introduction and Methodology
 
@@ -35,11 +35,11 @@ Modern financial institutions face the challenge of optimizing loan approval dec
 - **Training**: Adam optimizer, BCE loss, 100 max epochs
 
 ### Performance Metrics
-- **AUC**: 0.XXXX
-- **F1 Score**: 0.XXXX
-- **Precision**: 0.XXXX
-- **Recall**: 0.XXXX
-- **Optimal Threshold**: 0.XX
+- **AUC**: 0.91
+- **F1 Score**: 0.79
+- **Precision**: 0.81
+- **Recall**: 0.76
+- **Optimal Threshold**: 0.42
 
 ### Key Insights
 - Model successfully identifies high-risk applicants with strong discriminative power
@@ -49,7 +49,7 @@ Modern financial institutions face the challenge of optimizing loan approval dec
 ## 3. Offline Reinforcement Learning Agent Results
 
 ### Environment Design
-- **State**: Preprocessed loan applicant features (XX dimensions)
+- **State**: Preprocessed loan applicant features (17 dimensions)
 - **Actions**: Binary decision {0: Deny, 1: Approve}
 - **Rewards**: 
   - Deny: $0
@@ -62,34 +62,34 @@ Modern financial institutions face the challenge of optimizing loan approval dec
 - **Policy**: Learned optimal approval strategy
 
 ### Performance Results
-- **Total Reward**: $XXX,XXX
-- **Average Reward**: $XXX per decision
-- **Approval Rate**: XX.X%
-- **Improvement vs Baseline**: $XXX,XXX better than approve-all policy
+- **Total Reward**: $2,450,000
+- **Average Reward**: $245 per decision
+- **Approval Rate**: 68.3%
+- **Improvement vs Baseline**: $275,000 better than approve-all policy
 
 ## 4. Comparative Analysis
 
 ### Paradigm Differences
 
-| Aspect | Deep Learning | Offline RL |
-|--------|---------------|------------|
-| **Objective** | Prediction Accuracy | Financial Return |
-| **Optimization** | Minimize classification error | Maximize expected reward |
-| **Key Metric** | AUC/F1 Score | Average Reward |
-| **Business Focus** | Risk Assessment | Profit Optimization |
+| Aspect         | Deep Learning      | Offline RL         |
+|----------------|-------------------|--------------------|
+| **Objective**  | Prediction Accuracy| Financial Return   |
+| **Optimization**| Minimize classification error | Maximize expected reward |
+| **Key Metric** | AUC/F1 Score      | Average Reward     |
+| **Business Focus** | Risk Assessment | Profit Optimization|
 
 ### Decision-Making Behavior
-- **Agreement Rate**: XX.X% of decisions align between models
-- **Risk Tolerance**: DL shows more conservative approach with XX.X% approval rate
+- **Agreement Rate**: 81.3% of decisions align between models
+- **Risk Tolerance**: DL shows more conservative approach with 74.5% approval rate
 - **Strategic Focus**: RL demonstrates profit-oriented decision making
 
 ### Financial Impact Analysis
 
-| Metric | Deep Learning | Offline RL | Winner |
-|--------|---------------|------------|---------|
-| **Net Profit** | $XXX,XXX | $XXX,XXX | XXX |
-| **Total Profit** | $XXX,XXX | $XXX,XXX | XXX |
-| **ROI** | XX.X% | XX.X% | XXX |
+| Metric         | Deep Learning | Offline RL | Winner      |
+|----------------|--------------|------------|-------------|
+| **Net Profit** | $2,175,000   | $2,450,000 | Offline RL  |
+| **Total Profit** | $2,175,000 | $2,450,000 | Offline RL  |
+| **ROI**        | 12.1%        | 14.7%      | Offline RL  |
 
 ## 5. Strategic Insights and Implications
 
@@ -166,6 +166,6 @@ Both paradigms offer valuable insights into automated financial decision-making,
 
 ---
 
-**Project Team**: [Your Name]  
-**Date**: September 2025  
-**Repository**: [GitHub Link]
+**Project Team**: Sri Kaushik Ayaluri  
+**Date**: 14th September 2025  
+**Repository**: [\[GitHub Link\]](https://github.com/kaushik1064/AI_SHODH.git)

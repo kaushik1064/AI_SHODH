@@ -16,6 +16,7 @@ A comprehensive solution for **financial decision-making** using the LendingClub
 - [Requirements](#requirements)
 - [License](#license)
 - [Contact](#contact)
+- [Final Report](#final-report)
 
 ---
 
@@ -44,6 +45,8 @@ Both approaches are evaluated and compared to provide actionable insights for fi
 ├── config/          # Configuration files for models and rewards
 ├── requirements.txt # Python dependencies
 ├── README.md        # Project documentation
+├── reports/
+│   └── final_report.md # High-level project summary and results
 └── notebooks/
     ├── 01_exploratory_data_analysiss.ipynb
     ├── 03_deep_learning_model.ipynb
@@ -136,6 +139,13 @@ See the repository for license details.
 ## Contact
 
 For questions, issues, or collaboration, please open an issue or contact the maintainers.
+
+---
+
+## Final Report
+
+A comprehensive summary of project results, methodology, and key statistics is available in  
+[`reports/final_report.md`](reports/final_report.md).
 
 ---
 
